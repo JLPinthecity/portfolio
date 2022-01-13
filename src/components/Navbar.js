@@ -1,12 +1,17 @@
 import React from "react";
-
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar_wrapper">
-            
-            <img src={require('../logos/logo.png')} className="logo" />
+        <div className="wrapper">
+            <div className="nav">
 
+           <div className="header">
+            <img src={require('../logos/logo2.png')} className="header"/>
+            </div>
+
+            </div>
+            
         </div>
     )
 }

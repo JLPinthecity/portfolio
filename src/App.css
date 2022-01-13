@@ -1,4 +1,11 @@
-.main-container {
+body {
+  margin: 0px;
+  background-color: rgb(250, 247, 240);
+  color: #000;
+  font-size: 12px;
+}
+
+/* .main-container {
   height: 500px;
   background-color: rgb(250, 247, 240);
   border: solid black 1px;
@@ -13,4 +20,4 @@ footer {
   height: 500px;
   background-color: rgb(36,34,35);
 
-}
+} */

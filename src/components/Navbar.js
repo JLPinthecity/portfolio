@@ -1,6 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import { AiOutlinePlus, AiOutlineClose } from "react-icons/ai";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
     return (

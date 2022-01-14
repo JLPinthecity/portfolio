@@ -8,11 +8,15 @@ const Navbar = () => {
 
             <div className="nav">
 
-            <div className="header">
-                <img src={require('../logos/logo2.png')} className="header"/>
+                <div className="header">
+                    <img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/>
+
+                    <div className="menu_icon">
+                        <AiOutlinePlus/>
+                    </div>
                 </div>
 
-                </div>
+            </div>
             
         </div>
     )

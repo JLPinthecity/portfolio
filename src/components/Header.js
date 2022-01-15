@@ -1,9 +1,16 @@
-import React from "react";
-import './Navbar.css';
+import React, { useState } from "react";
 import { AiOutlinePlus, AiOutlineClose } from "react-icons/ai";
 import Sidebar from "./Sidebar";
+import './Header.css';
 
-const Navbar = () => {
+const Header = () => {
+    
+    const [sidebar, setSidebar] = useState(false) 
+
+    const showSidebar = () => setSidebar(!sidebar)
+
+
+
     return (
         <div className="wrapper">
 
@@ -13,8 +20,14 @@ const Navbar = () => {
                     <img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/>
 
                     <div className="menu_icon">
-                        <AiOutlinePlus/>
+                        <AiOutlinePlus onClick={showSidebar}/>
                     </div>
+
+                    <nav className={sidebar }>
+                        <Sidebar/>
+                    </nav>
+
+
                 </div>
 
             </div>
@@ -23,4 +36,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Header;

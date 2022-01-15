@@ -6,7 +6,7 @@ function Sidebar() {
 
     const menuItems = SidebarContent.map((item, key) => {
         return (
-            <li key={key} onClick={()=> {window.location.pathname = item.link}}>
+            <li key={key} className="item" onClick={()=> {window.location.pathname = item.link}}>
                 <div>
                     {item.title}
                 </div>
@@ -17,9 +17,12 @@ function Sidebar() {
 
     return (
         <div className="sidebar">
-            <ul>
+            <ul className="sidebar_list">
                 {menuItems}
             </ul>
+
+            <img src={require('../logos/pink-circle.png')} className="circle" alt="small joann pan logo inside menu sidebar"/>
+
         </div>
     )
 }

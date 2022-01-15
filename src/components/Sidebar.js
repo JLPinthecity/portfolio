@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Sidebar.css";
-import { SidebarContent } from './SidebarContent'
+import { SidebarContent } from './SidebarContent';
+import { AiOutlineClose } from "react-icons/ai";
+
 
 function Sidebar() {
 
@@ -16,13 +18,17 @@ function Sidebar() {
 
 
     return (
-        <div className="sidebar">
-            <ul className="sidebar_list">
-                {menuItems}
-            </ul>
+        <div className="wrapper">
+            <AiOutlineClose/>
 
-            <img src={require('../logos/pink-circle.png')} className="circle" alt="small joann pan logo inside menu sidebar"/>
+            <div className="sidebar">
+                <ul className="sidebar_list">
+                    {menuItems}
+                </ul>
 
+                <img src={require('../logos/logo.png')} className="circle" alt="small joann pan logo inside menu sidebar"/>
+
+            </div>
         </div>
     )
 }

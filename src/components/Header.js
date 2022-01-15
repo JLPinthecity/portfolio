@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import { AiOutlinePlus, AiOutlineClose } from "react-icons/ai";
+import { AiOutlinePlus } from "react-icons/ai";
 import Sidebar from "./Sidebar";
 import './Header.css';
+import './Sidebar.css';
+
 
 const Header = () => {
     
     const [sidebar, setSidebar] = useState(false) 
 
     const showSidebar = () => setSidebar(!sidebar)
-
-
 
     return (
         <div className="wrapper">
@@ -23,10 +23,9 @@ const Header = () => {
                         <AiOutlinePlus onClick={showSidebar}/>
                     </div>
 
-                    <nav className={sidebar }>
+                    <nav className={sidebar ? 'nav-menu' : 'hide'}>
                         <Sidebar/>
                     </nav>
-
 
                 </div>
 

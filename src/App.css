@@ -4,26 +4,10 @@ body {
   background-color: rgb(250, 247, 240);
   font-weight: 200;
   font-style: normal;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: .02em;
   line-height: 1.5em;
   text-transform: none;
   color: #231f20;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
-
-/* .main-container {
-  height: 500px;
-  background-color: rgb(250, 247, 240);
-  border: solid black 1px;
-}
-
-.hero {
-  background-color:powderblue;
-  height: 100vh;
-}
-
-footer {
-  height: 500px;
-  background-color: rgb(36,34,35);
-
-} */

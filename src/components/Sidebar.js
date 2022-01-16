@@ -3,7 +3,6 @@ import "./Sidebar.css";
 import { SidebarContent } from './SidebarContent';
 import { AiOutlineClose } from "react-icons/ai";
 
-
 function Sidebar() {
 
     const menuItems = SidebarContent.map((item, key) => {

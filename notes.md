@@ -5,3 +5,5 @@ PORTFOLIO NOTES
 font-family: 'Be Vietnam Pro', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Spline Sans', sans-serif;
+font-family: 'Dongle', sans-serif;
+font-family: 'Outfit', sans-serif;

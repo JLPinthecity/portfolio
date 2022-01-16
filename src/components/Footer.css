@@ -1,0 +1,32 @@
+.footer_wrapper{
+    background-color: rgb(231, 200, 107);
+    height: 20rem;
+    color: rgb(22, 52, 45);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.contact{
+    padding: 1rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: none;
+}
+
+.contact h2 {
+    color: rgb(191, 68, 48);
+    font-family: 'Outfit', sans-serif;
+    font-size: 5rem;
+}
+
+.icon{
+    color: rgb(2,20,42);
+    font-size: 1.2rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+
+

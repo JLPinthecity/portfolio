@@ -18,19 +18,35 @@ function Sidebar() {
 
 
     return (
-        <div className="wrapper">
-            <AiOutlineClose/>
+        <div className="sidebar_wrapper">
 
-            <div className="sidebar">
-                <ul className="sidebar_list">
-                    {menuItems}
-                </ul>
+            <div className="container">
 
-                <img src={require('../logos/logo.png')} className="circle" alt="small joann pan logo inside menu sidebar"/>
+                <div className="first_row">
+                    <img src={require('../logos/hithere.png')} className="hi" alt="hi there greeting inside menu sidebar"/>
 
+                    <AiOutlineClose className="close"/>
+                </div>
+
+                <div className="main">
+                    <ul>
+                        {menuItems}
+                    </ul>
+                </div>
+
+                <div className="last">
+                    <img src={require('../logos/jp-circle.png')} className="jp" alt="small joann pan logo inside menu sidebar"/>
+
+                    <img src={require('../logos/toodles.png')} className="toodles" alt="toodles above close inside menu sidebar"/>
+                </div>
+
+               
+                    
+    
+        
             </div>
         </div>
     )
 }
 
-export default Sidebar
+export default Sidebar;

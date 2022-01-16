@@ -37,10 +37,6 @@ function Sidebar(props) {
 
                     <img src={require('../logos/toodles.png')} className="toodles" alt="toodles above close inside menu sidebar" onClick={props.toggle}/>
                 </div>
-
-               
-                    
-    
         
             </div>
         </div>

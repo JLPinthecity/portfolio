@@ -2,9 +2,13 @@
 /* FIRST ROW: hi there + close */
 /* SECOND ROW: toodles */
 /* MAIN: menu */
-/* LAST: logo *
+/* LAST: logo */
+
 
 /* WRAPPER ON HEADER.JS WRAPPING SIDEBAR */
+
+
+
 .sidebar_wrapper {
     font-family: 'Lora', serif;
     font-size: 20px;
@@ -18,7 +22,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     overflow: scroll;
 
 }
@@ -61,7 +65,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 5rem;
 }
 

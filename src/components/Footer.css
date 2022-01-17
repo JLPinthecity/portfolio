@@ -3,37 +3,54 @@
     height: 20rem;
     color: black;
     font-size: 1rem;
-    text-align: center;
     font-family: 'Outfit', sans-serif;
 }
 
+.footer_container{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    text-align:center;
+}
+
 .contact{
-    padding: 2rem;
+    padding: 1rem;
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: none;
 }
 
 .contact h2 {
-    color: rgb(180, 109, 85);
+    color: rgb(180, 72, 47);
     font-size: 4rem;
 }
 
-.email{
-    letter-spacing: .2rem;
-    padding-bottom: 2px;
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+.row .email{
+    letter-spacing: .3rem;
+    padding-bottom: 2px;
+    align-content: center;
+}
+
+.row .icon {
+    padding-right: 15px;
+}
 .icon{
     color: rgb(159, 98, 35);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-left: 3px; 
     padding-right: 3px;
-  
 }
 
 .copyright {
-    font-size: 0.8rem;
+    font-size: .8rem;
 }
 
 

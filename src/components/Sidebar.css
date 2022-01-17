@@ -11,7 +11,6 @@
     font-family: 'Lora', serif;
     font-size: 20px;
     display: block;
-    height: 100vh;
     background-color: rgb(194, 216, 203);
     color: rgb(1,0,0);
     letter-spacing: .3em;
@@ -21,7 +20,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    overflow: scroll;
+    height: 100vh;
 }
 /* FLEX CONTAINER */ 
 .container {
@@ -29,6 +28,9 @@
     flex-direction: column;
     justify-content: center;
     transition: transform 1s ease-in-out;
+    left: 0;
+    top: 0;
+   
 }
 
 /* FLEX - first row: hi there + close  */
@@ -102,7 +104,4 @@
     right: 0;
 }
 
-.hide {
-    display:none;
-}
 

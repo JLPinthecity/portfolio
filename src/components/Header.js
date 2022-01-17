@@ -17,11 +17,9 @@ const Header = () => {
 
             <div className="header">
 
-    
 
                 <a href="/"><img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/></a>
 
-                <div className="spacer"/>
                 
                 <Burger className="burger_icon"/> 
             </div>

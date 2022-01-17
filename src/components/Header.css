@@ -14,20 +14,17 @@
     height: 30px;
     box-sizing: border-box;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-top:10px;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top:15px;
 }
 
 /* LOGO */
 .header .title{
-    max-width: 230px;
+    max-width: 15rem;
 }
 
 
-.spacer {
-    flex:1;
-}
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Sidebar.css";
 import { SidebarContent } from './SidebarContent';
 import { AiOutlineClose } from "react-icons/ai";
+import "./Sidebar.css";
 
 function Sidebar(props) {
 

@@ -1,27 +1,35 @@
 .footer_wrapper{
-    background-color: rgb(231, 200, 107);
+    background-color: rgb(195, 179, 171);
     height: 20rem;
-    color: rgb(22, 52, 45);
+    color: black;
     font-size: 1rem;
     text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 .contact{
-    padding: 1rem;
+    padding: 2rem;
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: none;
 }
 
 .contact h2 {
-    color: rgb(191, 68, 48);
-    font-family: 'Outfit', sans-serif;
-    font-size: 5rem;
+    color: rgb(180, 109, 85);
+    font-size: 4rem;
+}
+
+.email{
+    letter-spacing: .2rem;
+    padding-bottom: 2px;
 }
 
 .icon{
-    color: rgb(2,20,42);
+    color: rgb(159, 98, 35);
     font-size: 1.2rem;
+    padding-left: 3px; 
+    padding-right: 3px;
+  
 }
 
 .copyright {

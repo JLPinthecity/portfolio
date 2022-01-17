@@ -9,9 +9,12 @@ function Footer() {
             
             <div className="contact">
                 <h2>Contact</h2>
+
+                <div className="email">
                 <AiOutlineMail className="icon"/> hitherejoann@gmail.com
             </div>
 
+<br/><br/>
             <div className="social_icons">
 
                 <AiOutlineLinkedin className="icon"/>
@@ -26,6 +29,7 @@ function Footer() {
                 <h4>© 2021 Joann Pan</h4>
             </div>
         </div>
+    </div>
     )
 }
 

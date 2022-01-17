@@ -7,8 +7,6 @@
 
 /* WRAPPER ON HEADER.JS WRAPPING SIDEBAR */
 
-
-
 .sidebar_wrapper {
     font-family: 'Lora', serif;
     font-size: 20px;
@@ -24,13 +22,13 @@
     top: 0;
     width: 100vw;
     overflow: scroll;
-
 }
 /* FLEX CONTAINER */ 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform 1s ease-in-out;
 }
 
 /* FLEX - first row: hi there + close  */
@@ -50,7 +48,7 @@
 }
 
 .first_row .close{
-    font-size: 30px;
+    font-size: 40px;
     margin-left: auto;
     margin-right: 15px;
     cursor: pointer;
@@ -104,6 +102,19 @@
     right: 0;
 }
 
-.hide {
-    display: none;
-} 
+.on{
+    transform: translate3d(-100%, 0px, 0px);
+    visibility: visible;
+}
+
+.off {
+    transform: translate3d(0px, 0px, 0px);
+  visibility: visible;
+}
+
+
+
+
+
+
+

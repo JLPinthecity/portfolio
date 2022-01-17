@@ -18,11 +18,11 @@ const Header = () => {
                 <img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/>
 
                 <div className="menu_icon">
-                    <AiOutlinePlus onClick={showSidebar}/>
+                    <AiOutlinePlus onClick={showSidebar} />
                 </div>
 
-                <nav className={sidebar ? 'nav-menu' : 'hide'}>
-                    <Sidebar toggle={showSidebar}/>
+                <nav>
+                    <Sidebar toggle={showSidebar} sidebar={sidebar}/>
                 </nav>
 
             </div>

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { AiOutlinePlus } from "react-icons/ai";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
+import Burger from "./Burger";
 import './Header.css';
 import './Sidebar.css';
+import './Burger.css';
 
 const Header = () => {
     
@@ -15,22 +16,29 @@ const Header = () => {
         <div className="nav">
 
             <div className="header">
-                <img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/>
 
-                <div className="menu_icon">
-                    <AiOutlinePlus onClick={showSidebar} />
-                </div>
+    
 
-                <nav>
-                    <Sidebar toggle={showSidebar} sidebar={sidebar}/>
-                </nav>
+                <a href="/"><img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/></a>
 
+                <div className="spacer"/>
+                
+                <Burger className="burger_icon"/> 
             </div>
 
+
         </div>
-            
-        
     )
 }
 
 export default Header;
+
+
+
+
+// <AiOutlinePlus onClick={showSidebar} />
+
+
+//   {/* <nav className="side">
+//                 <Sidebar className="hide" toggle={showSidebar} sidebar={sidebar}/>
+//             </nav> */}

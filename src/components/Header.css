@@ -11,23 +11,23 @@
 .header {
     display: flex;
     width: 100%;
+    height: 30px;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    margin-top:10px;
 }
 
 /* LOGO */
 .header .title{
     max-width: 230px;
-    margin-left: auto;
-    margin-right: -40px;
 }
 
-/* PLUS  */
-.menu_icon{
-    font-size: 40px;
-    color: rgb(235, 71, 13);
-    margin-left: auto;
-    margin-right: 15px;
+
+.spacer {
+    flex:1;
 }
+
+
 

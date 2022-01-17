@@ -1,0 +1,34 @@
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__line {
+    width:30px;
+    height: 3px;
+}
+
+#color1 {
+    background-color: rgb(148, 165, 169);
+}
+
+#color2 {
+    background-color: rgb(234,163,146);
+}
+
+#color3 {
+    background-color: rgb(180, 72, 47);
+}

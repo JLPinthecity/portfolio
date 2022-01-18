@@ -30,7 +30,7 @@ function Footer() {
                 </div>
 
                 <div className="copyright" >
-                    <h4>© 2022 Joann Pan</h4>
+                    <h4>Copyright © 2022 Joann Pan</h4>
                 </div>
 
             </div>

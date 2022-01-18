@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="app">
+      
       <div className="main-container">
         <Header clickMenuIcon={showSidebar}/>
         <Sidebar show={sidebar} clickMenuIcon={showSidebar}/>

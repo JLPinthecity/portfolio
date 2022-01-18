@@ -1,15 +1,16 @@
 import React from 'react';
 import { SidebarContent } from './SidebarContent';
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 function Sidebar(props) {
 
     const menuItems = SidebarContent.map((item, key) => {
         return (
-            <li key={key} className="item" onClick={()=> {window.location.pathname = item.link}}>
+            <li key={key} className="item">
                 <div>
-                    {item.title}
+                <Link to={item.link}>{item.title}</Link>
                 </div>
             </li>
         )

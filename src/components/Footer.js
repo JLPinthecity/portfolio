@@ -1,7 +1,6 @@
 import React from 'react'
 import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import { BsPinterest } from "react-icons/bs";
-import Burger from './Burger';
 import './Footer.css';
 
 function Footer() {

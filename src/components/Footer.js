@@ -17,7 +17,7 @@ function Footer() {
                 <div className="row">
                     <AiOutlineMail className="icon"/> 
     
-                    <div className="email">   hitherejoann@gmail.com</div>
+                    <div className="email">hitherejoann@gmail.com</div>
                 </div>
 
             <br/>
@@ -30,7 +30,7 @@ function Footer() {
                 </div>
 
                 <div className="copyright" >
-                    <h4>© 2021 Joann Pan</h4>
+                    <h4>© 2022 Joann Pan</h4>
                 </div>
 
             </div>

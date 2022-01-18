@@ -1,30 +1,19 @@
-import React, { useState } from "react";
-// import Sidebar from "./Sidebar";
+import React from "react";
 import Burger from "./Burger";
 import './Header.css';
-import './Sidebar.css';
 import './Burger.css';
 
-const Header = () => {
+const Header = (props) => {
     
-    const [sidebar, setSidebar] = useState(false) 
-
-    const showSidebar = () => setSidebar(!sidebar)
-
     return (
-
         <div className="nav">
-
             <div className="header">
+                <a href="/"><img src={require('../logos/stacked.png')} className="title" alt="joann pan logo"/></a>
+
+                <Burger className="burger_icon" click={props.clickMenuIcon}/>
 
 
-                <a href="/"><img src={require('../logos/biegeandwhite.png')} className="title" alt="joann pan logo"/></a>
-
-                
-                <Burger className="burger_icon"/> 
             </div>
-
-
         </div>
     )
 }

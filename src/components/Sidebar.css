@@ -3,34 +3,33 @@
 /* SECOND ROW: toodles */
 /* MAIN: menu */
 /* LAST: logo */
-
-
 /* WRAPPER ON HEADER.JS WRAPPING SIDEBAR */
-
 .sidebar_wrapper {
-    font-family: 'Lora', serif;
     font-size: 20px;
-    display: block;
     background-color: rgb(194, 216, 203);
     color: rgb(1,0,0);
     letter-spacing: .3em;
     text-transform: uppercase;
-    overflow: hidden;
+    overflow: scroll;
     position: fixed;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+/* this will move the window to the left by its full width */
+
+.sidebar_wrapper.open{
+    transform: translateX(0);
 }
 /* FLEX CONTAINER */ 
-.container {
+.sidebar_wrapper .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    transition: transform 1s ease-in-out;
-    left: 0;
-    top: 0;
-   
+    justify-content: space-around;
+    align-content: space-between;
 }
 
 /* FLEX - first row: hi there + close  */
@@ -38,15 +37,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
     justify-content: space-between;
 }
 
 .first_row .hi{
-    width: 15%;
+    width: 10rem;
     margin-left: 10px;
-    padding: 20px;
 }
 
 .first_row .close{
@@ -73,11 +69,13 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 5vw 5vw;
+    margin: 2rem 0;
     cursor: pointer;
+    font-size: 2rem;
 }
 
-.main .item:hover {
+.main .item:hover,
+.main .item:active{
     color: rgb(235, 71, 13);
 }
 
@@ -90,14 +88,14 @@
 }
 
 .last .jp {
-    max-width: 15%;
+    width: 10rem;
     height: auto;
     text-align: center;
     padding-left: 30px;
 }
 
 .last .toodles {
-    width: 18%;
+    width: 10rem;
     margin-left: 10px;
     cursor: pointer;
     position: absolute;

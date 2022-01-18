@@ -15,15 +15,21 @@ function Sidebar(props) {
         )
     })
 
-    return (
-        <div className="sidebar_wrapper">
 
-            <div className="container" >
+    let sidebarClass = 'sidebar_wrapper';
+    if (props.show) {
+        sidebarClass = 'sidebar_wrapper open'
+    }
+
+    return (
+        <div className={sidebarClass}>
+
+            <div className="container">
 
                 <div className="first_row" >
                     <img src={require('../logos/hithere.png')} className="hi" alt="hi there greeting inside menu sidebar"/>
 
-                    <AiOutlineClose className="close" onClick={props.toggle}/>
+                    <AiOutlineClose className="close" onClick={props.clickMenuIcon}/>
                 </div>
 
                 <div className="main">

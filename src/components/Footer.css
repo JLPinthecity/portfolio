@@ -1,5 +1,5 @@
 .footer_wrapper{
-    background-color: rgb(195, 179, 171);
+    background-color: rgb(220, 211, 205);
     height: 20rem;
     color: black;
     font-size: 1rem;
@@ -22,8 +22,13 @@
 }
 
 .contact h2 {
-    color: rgb(180, 72, 47);
+    color: rgb(99,129,93);
     font-size: 4rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.contact h2:hover{
+    color:rgb(229,57,73);
 }
 
 .row {
@@ -43,7 +48,7 @@
     padding-right: 15px;
 }
 .icon{
-    color: rgb(159, 98, 35);
+    color: rgb(180, 72, 47);
     font-size: 1.5rem;
     padding-left: 3px; 
     padding-right: 3px;

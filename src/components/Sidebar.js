@@ -2,6 +2,7 @@ import React from 'react';
 import { SidebarContent } from './SidebarContent';
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Burger from "./Burger";
 import "./Sidebar.css";
 
 function Sidebar(props) {
@@ -30,7 +31,7 @@ function Sidebar(props) {
                 <div className="first_row" >
                     <img src={require('../logos/hithere.png')} className="hi" alt="hi there greeting inside menu sidebar"/>
 
-                    <AiOutlineClose className="close" onClick={props.clickMenuIcon}/>
+                    <Burger/>
                 </div>
 
                 <div className="main">

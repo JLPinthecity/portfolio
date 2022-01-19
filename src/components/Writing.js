@@ -2,7 +2,7 @@ import React from 'react';
 
 function Writing() {
     return (
-        <div>
+        <div className="writing-wrapper">
             
         </div>
     )

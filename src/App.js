@@ -12,10 +12,13 @@ function App() {
 
   return (
     <div className="app">
+
+      <div className="header">
+        <Header clickMenuIcon={showSidebar} show={sidebar}/>
+      </div>
       
       <div className="main-container">
-        <Header clickMenuIcon={showSidebar} show={sidebar}/>
-        <Sidebar clickMenuIcon={showSidebar} show={sidebar}/>
+        <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
         <Main/>
       </div>
 

@@ -5,12 +5,12 @@
     letter-spacing: .3em;
     text-transform: uppercase;
     left: 0;
-    top: 10rem;
+    top: 13rem;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
-    position:absolute;
+    position: absolute;
 }
 /* this will move the window to the left by its full width */
 

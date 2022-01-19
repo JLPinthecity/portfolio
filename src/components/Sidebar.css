@@ -1,5 +1,5 @@
 .sidebar_wrapper {
-    font-size: 20px;
+    font-family: 'Outfit', sans-serif; 
     background-color: white;
     color: rgb(1,0,0);
     letter-spacing: .3em;
@@ -38,10 +38,10 @@
 
 .main .item a{
     text-decoration: none;
-    color: blue;
+    color: rgb(0,0,43);
 }
 
 .main .item a:hover,
 .main .item a:active{
-    color: rgb(235, 71, 13);
+    color: rgb(224, 133, 236);
 }

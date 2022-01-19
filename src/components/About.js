@@ -14,6 +14,7 @@ function About() {
                 <br/>
                 As a developer, I thrive to write clean and accessible code--and maintain a can-do attitude. As a human, I strive to spread kindness and positivity. 
             </div>
+            
         </div>
     )
 }

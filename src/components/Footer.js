@@ -25,7 +25,7 @@ function Footer() {
                 <div className="social_icons">
                     <a href="https://www.linkedin.com/in/joannpan" target="_blank"  rel="noreferrer"><AiOutlineLinkedin className="icon"/></a>
                     <a href="https://www.pinterest.com/joannpan9/" target="_blank"  rel="noreferrer"><BsPinterest className="icon"/></a>
-                    <a href="https://github.com/JLPinthecity" target="_blank"  rel="noreferrer"><AiOutlineGithub/></a>
+                    <a href="https://github.com/JLPinthecity" target="_blank"  rel="noreferrer"><AiOutlineGithub className="icon"/></a>
                 </div>
 
                 <div className="copyright" >

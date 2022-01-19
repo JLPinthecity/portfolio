@@ -1,105 +1,47 @@
-/* FLEXBOX - COLUMN */
-/* FIRST ROW: hi there + close */
-/* SECOND ROW: toodles */
-/* MAIN: menu */
-/* LAST: logo */
-/* WRAPPER ON HEADER.JS WRAPPING SIDEBAR */
 .sidebar_wrapper {
     font-size: 20px;
-    background-color: rgb(194, 216, 203);
+    background-color: white;
     color: rgb(1,0,0);
     letter-spacing: .3em;
     text-transform: uppercase;
-    overflow: scroll;
-    position: fixed;
     left: 0;
-    top: 0;
-    width: 50%;
+    top: 10rem;
+    width: 100vw;
     height: 100%;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
+    position:absolute;
 }
 /* this will move the window to the left by its full width */
 
 .sidebar_wrapper.open{
     transform: translateX(0);
 }
-/* FLEX CONTAINER */ 
-.sidebar_wrapper .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-between;
-}
 
-/* FLEX - first row: hi there + close  */
-.first_row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.first_row .hi{
-    width: 10rem;
-    margin-left: 10px;
-}
-
-.first_row .close{
-    font-size: 40px;
-    margin-left: auto;
-    margin-right: 15px;
-    cursor: pointer;
-}
-
-.first_row .close:hover {
-    color: rgb(235, 71, 13);
-}
-/* FLEX - MAIN MENU  */
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    padding-bottom: 5rem;
+    padding: 3rem;
 }
 
 .main .item {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 2rem 0;
+    margin: 2rem;
+    padding: 2rem;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-.main .item:hover,
-.main .item:active{
+.main .item a{
+    text-decoration: none;
+    color: blue;
+}
+
+.main .item a:hover,
+.main .item a:active{
     color: rgb(235, 71, 13);
 }
-
-/* FLEX - last row: icon + toodles  */
-.last {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.last .jp {
-    width: 10rem;
-    height: auto;
-    text-align: center;
-    padding-left: 30px;
-}
-
-.last .toodles {
-    width: 10rem;
-    margin-left: 10px;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-}
-
-

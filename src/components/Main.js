@@ -12,7 +12,7 @@ function Main() {
 
             </div>
 
-            <div className="welcome">
+            <div className="summary">
             Joann Pan is a software developer and content creator living in NY, NY.
             </div>
 

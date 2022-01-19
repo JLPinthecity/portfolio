@@ -23,21 +23,21 @@
 }
 
 #line1 {
-    background-color: rgb(99,129,93);
+    background-color: rgb(18, 26, 92);
 }
 
 #line2 {
-    background-color: rgb(229,57,73);
+    background-color: rgb(240, 196, 246);
 }
 
 #line3 {
-    background-color: rgb(202,30,37);
+    background-color: rgb(134, 40, 63);
 }
 
 .open #line1{
     /* transform-origin: 10px 0px; */
     transform: rotate(-45deg);
-    background-color: rgb(202,30,37);
+    background-color: rgb(134, 40, 63);
 }
 
 .open #line2{

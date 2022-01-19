@@ -1,8 +1,6 @@
 import React from 'react';
 import { SidebarContent } from './SidebarContent';
-import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Burger from "./Burger";
 import "./Sidebar.css";
 
 function Sidebar(props) {
@@ -26,29 +24,16 @@ function Sidebar(props) {
     return (
         <div className={sidebarClass}>
 
-            <div className="container">
+            <div className="main">
 
-                <div className="first_row" >
-                    <img src={require('../logos/hithere.png')} className="hi" alt="hi there greeting inside menu sidebar"/>
-
-                    <Burger/>
-                </div>
-
-                <div className="main">
-                    <ul>
-                        {menuItems}
-                    </ul>
-                </div>
-
-                <div className="last">
-                    <img src={require('../logos/jp-circle.png')} className="jp" alt="small joann pan logo inside menu sidebar"/>
-
-                    <img src={require('../logos/toodles.png')} className="toodles" alt="toodles above close inside menu sidebar" onClick={props.toggle}/>
-                </div>
-        
+                <ul>
+                    {menuItems}
+                </ul>
+            
             </div>
         </div>
     )
 }
 
 export default Sidebar;
+

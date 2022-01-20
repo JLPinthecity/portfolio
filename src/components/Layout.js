@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
+import MinimalistFooter from './MinimalistFooter';
 
 function Layout() {
 
@@ -27,7 +28,7 @@ function Layout() {
             </main>
 
             <div className="footer">
-                <Footer/>
+                {window.location.pathname === '/' ? <Footer /> : <MinimalistFooter/>}  
             </div>
         </div>
 

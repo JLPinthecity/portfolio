@@ -1,7 +1,9 @@
 import React from "react";
 import Burger from "./Burger";
+import Sidebar from "./Sidebar";
 import './Header.css';
 import './Burger.css';
+import './Sidebar.css';
 
 const Header = (props) => {
     

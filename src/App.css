@@ -21,18 +21,18 @@ body {
   width: 100vw;
 }
 
-.main-container{
+.main{
   flex: 2;
   order: 2;
   min-height: 80vh;
-  
 }
 
-.main-container .sidebar{
+.main .sidebar{
   order: 1;
   flex: 1;
 
 }
-.footer-container{
+.footer{
   width: 100vw;
+  flex: 1;
 }

@@ -38,10 +38,14 @@ function Main() {
                     </div>
                     </div>
                 </div>
-            
 
 
-                <a href="/about" className="button">Learn more</a>
+
+<br></br>
+
+                <div className="button-wrapper">
+                    <a href="/about" className="button">Learn more</a>
+                </div>
 
             </div>
 

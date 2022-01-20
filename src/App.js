@@ -17,12 +17,12 @@ function App() {
         <Header clickMenuIcon={showSidebar} show={sidebar}/>
       </div>
       
-      <div className="main-container">
+      <div className="main">
         <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
         <Main/>
       </div>
 
-      <div className="footer-container">
+      <div className="footer">
         <Footer/>
       </div>
     </div>

@@ -13,19 +13,19 @@ function Layout() {
     const showSidebar = () => setSidebar(!sidebar)
 
     return (
-        <div className="wrapper">
+        <div className="app">
 
             <div className="header">
                 <Header clickMenuIcon={showSidebar} show={sidebar}/>
             </div>
             
-            <div className="main">
+            <div className="sidebar">
                 <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
             </div>
 
-            <main>
+            <div className="main">
                 <Outlet/>
-            </main>
+            </div>
 
             <div className="footer">
                 {window.location.pathname === '/' ? <Footer /> : <MinimalistFooter/>}  
@@ -35,4 +35,4 @@ function Layout() {
     );
 }
 
-export default Layout
+export default Layout;

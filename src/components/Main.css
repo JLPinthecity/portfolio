@@ -15,7 +15,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-    margin: 20px
 }
 
 .left-side img{
@@ -31,6 +30,7 @@
     text-align: left;
     padding-left: 2.2vw;
 }
+
 .left-side .button-wrapper{
     display:flex;
     justify-content: center;
@@ -93,8 +93,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 20px;
-    padding: 20px;
 }
 
 
@@ -103,4 +101,32 @@
     width: 32vw;
     height: auto;
     border: 20px solid pink;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    /* For tablets: */
+
+.main-wrapper {
+    flex-direction: column;
+}
+
+.right-side{
+order: 1;
+}
+
+
+.left-side .skills{
+    flex-direction: column;
+}
+
+.header1 {
+    border-right: none;
+    padding-right: 0px;
+}
+
+.header2{
+    padding-left: 0px;
+}
 }

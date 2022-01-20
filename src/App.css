@@ -12,19 +12,22 @@ body {
   height: 100vh;
 }
 
-.app{
-  flex-direction: row;
-  flex-wrap: wrap;    
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;   
+  justify-content: flex-start; 
+  min-height: 100vh;
 }
 
 .header{
   width: 100vw;
+  order: -1;
 }
 
 .main{
-  flex: 2;
-  order: 2;
-  min-height: 80vh;
+  display: flex;
+  flex: 1;
 }
 
 .sidebar{

@@ -1,33 +1,23 @@
-import {React, useState} from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Sidebar from './components/Sidebar';
+import {React} from 'react';
+import About from './components/About';
+import Code from './components/Code';
+import Writing from './components/Writing';
 import Main from './components/Main';
+import Layout from './components/Layout';
 import './App.css';
-import { Outlet, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [sidebar, setSidebar] = useState(false) 
-
-  const showSidebar = () => setSidebar(!sidebar)
 
   return (
-      <div className="app">
-
-        <div className="header">
-          <Header clickMenuIcon={showSidebar} show={sidebar}/>
-        </div>
-        
-        <div className="main">
-          <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
-         
-          <Outlet />
-        </div>
-
-        <div className="footer">
-          <Footer/>
-        </div>
-      </div>
+    <Routes>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Main />} />
+      <Route path="about" element={<About />} />
+      <Route path="writing" element={<Writing />} />
+      <Route path="code" element={<Code />} />
+    </Route>
+  </Routes>
   );
 }
 

@@ -1,0 +1,46 @@
+.about-wrapper{
+    margin: 0px;
+    font-size: 25px;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+    color: #231f20;
+    font-family: 'outfit', sans-serif;
+    height: 100%;
+    width: 100vw;
+}
+
+.about-first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+
+.about-title{
+    color: rgb(18, 26, 92);
+    font-size: 3rem;
+    font-family: 'lato', serif;
+    font-style: italic;
+    display: inline-block;
+    margin: 2rem 0 0 1rem;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    background: linear-gradient(45deg, rgb(12,26,53), rgb(16, 100,177));
+    color: transparent;
+    background-clip: text;
+    
+}
+
+.summary{
+    font-size: 1.2rem;
+    width: 90vw;
+}
+
+.about-container img{
+    display: flex;
+    text-align: center;
+    width: 7rem;
+}

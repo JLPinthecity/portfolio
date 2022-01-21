@@ -1,23 +1,23 @@
 .about-wrapper{
     margin: 0px;
+    padding: 0px;
     font-size: 25px;
     letter-spacing: .03em;
     line-height: 1.5em;
     color: #231f20;
-    font-family: 'outfit', sans-serif;
+    font-family: Georgia, serif;
     height: 100%;
     width: 100vw;
 }
 
-.about-first-row{
+/* FIRST FLEX CONTAINER */
+.about-row{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100vw;
 }
-
-
 
 .about-title{
     color: rgb(18, 26, 92);
@@ -25,22 +25,77 @@
     font-family: 'lato', serif;
     font-style: italic;
     display: inline-block;
-    margin: 2rem 0 0 1rem;
+    margin: 3rem 0rem 0 1rem;
     transform: rotate(-90deg);
     transform-origin: 0 0;
     background: linear-gradient(45deg, rgb(12,26,53), rgb(16, 100,177));
     color: transparent;
     background-clip: text;
-    
+    display: inline-block;
+}
+
+/* SECOND FLEX CONTAINER */
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.block .illustration-container{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.block img{
+    width: 10rem;
 }
 
 .summary{
     font-size: 1.2rem;
+    width: 85%;
+    margin-right: 5.5rem;
+    display: inline-block;
+}
+
+.title {
+    color: rgb(18, 26, 92);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'OUTFIT', serif;
+}
+
+.text{
+    font-size: 1.2rem;
     width: 90vw;
 }
 
-.about-container img{
+.technology{
+    display: inline-block;
+    margin: 0 0 22px 0;
+    width: 100%;
+    font-family: Outfit;
+}
+.technologies-container{
     display: flex;
-    text-align: center;
-    width: 7rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.macbook{
+    margin-right: 5px;
+}
+
+.prompt{
+    color: rgb(18, 26, 92);
+    font-size: 2.5rem;
+    font-family: 'dongle', serif;
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(12,26,53), rgb(16, 100,177));
+    color: transparent;
+    background-clip: text;
+    text-align:center;
+    text-transform: uppercase;
+
 }

@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const SidebarContent = [
     {
         title: "Home", 
@@ -12,15 +10,18 @@ export const SidebarContent = [
     }, 
 
     {
-        title: "Writing", 
-        link: "/writing"
-    }, 
-
-    {
         title: "Code", 
         link: "/code"
+    },
+
+    
+    {
+        title: "Writing", 
+        link: "/writing"
     }
+
+
 
 ]
 
-export default SidebarContent
+export default SidebarContent;

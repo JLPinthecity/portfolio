@@ -14,7 +14,7 @@ function Main() {
                 <br/>
 
                 <div className="summary">
-                    I'm Joann, a software developer and content creator based in NYC.
+                    I'm Joann, a full-stack developer and content creator based in NYC.
                 </div>
 
                 <br/>

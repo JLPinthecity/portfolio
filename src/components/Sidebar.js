@@ -9,7 +9,7 @@ function Sidebar(props) {
         return (
             <li key={key} className="item">
                 <div>
-                <Link to={item.link}>{item.title}</Link>
+                <Link to={item.link} onClick={props.clickMenuIcon}>{item.title}</Link>
                 </div>
             </li>
         )

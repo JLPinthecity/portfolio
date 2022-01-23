@@ -5,8 +5,13 @@ function Main() {
     return (
         <div className="main-wrapper">
 
-            <div className="left-side">
+            <div className="right-side">
+                <div className="image-placeholder">
+                    <img src={require('../images/joann.jpeg')}  alt="joann pan portrait"/>
+                </div>
+            </div>
 
+            <div className="left-side">
                 <div className="welcome">
                     <img src={require('../logos/hithere.png')} className="hi" alt="hi there against blue background"/>
                 </div>
@@ -21,38 +26,27 @@ function Main() {
                 <br/>
 
                 <div className="skills">
-
                     <div className="header1">
                         <h2>CODE</h2>
-                    <div className="details">
-                        HTML/CSS | Ruby | Rails | JavaScript | React | Redux
+                        <div className="details">
+                            HTML/CSS | Ruby | Rails | JavaScript | React | Redux
+                        </div>
                     </div>
-                    </div>
-
 
                     <div className="header2">
                         <h2>CONTENT</h2>
-
-                    <div className="details">
-                    Content creation | digital content strategy | editing  
-                    </div>
+                        <div className="details">
+                        Content creation | digital content strategy | editing  
+                        </div>
                     </div>
                 </div>
 
-
-
-<br></br>
+                <br></br>
 
                 <div className="button-wrapper">
                     <a href="/about" className="button">Learn more</a>
                 </div>
 
-            </div>
-
-            <div className="right-side">
-                <div className="image-placeholder">
-                    <img src={require('../images/monstera.jpg')} className="hi" alt="monstera plant"/>
-                </div>
             </div>
 
         </div>

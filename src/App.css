@@ -39,3 +39,15 @@ body {
   width: 100vw;
   flex: 1;
 }
+
+.title {
+  color: rgb(18, 26, 92);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'OUTFIT', serif;
+}
+
+.text{
+  font-size: 1.2rem;
+  width: 90vw;
+}

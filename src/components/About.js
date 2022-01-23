@@ -45,7 +45,7 @@ function About() {
                 After gaining a master's degree in journalism from NYU Arthur L. Carter Journalism Institute, I worked at Oprah.com as a web producer, creating content, writing newsletters, and developing content strategy. At Well+Good, I worked as an assistent branded content editor, conceptualizing and writing sponsored wellness-focused content.
                 <br/>
                 <br/>
-                I happily graduated from Flatiron School's Software Engineering Bootcamp in July of 2021. 
+                I happily graduated from Flatiron School's Online Software Engineering Bootcamp in July 2021. 
                 </div>
         
             <br/>
@@ -121,7 +121,7 @@ function About() {
                 </div>
 <br/>
                 <div className="text">
-                    When Joann isn't coding, she's probably watering her plants, walking her dog Buffy, or planning her next dream trip (Oahu!). Nothing makes her happier than books, meals with friends, and interior-design blogs. 
+                Off the web, you can likely find Joann watering her plants, walking her sweet dog Buffy, or planning her next dream trip (Oahu!). Nothing makes her happier than books, meals with friends, and interior-design blogs. 
                 </div>
 
                 <br/>

@@ -18,7 +18,7 @@ function Layout() {
             <div className="header">
                 <Header clickMenuIcon={showSidebar} show={sidebar}/>
             </div>
-            
+
             <div className="sidebar">
                 <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
             </div>

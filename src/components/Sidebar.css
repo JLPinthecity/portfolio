@@ -7,10 +7,12 @@
     left: 0;
     top: 13rem;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
     position: absolute;
+    margin-bottom: -101%;
+    padding-bottom: 101%; 
 }
 /* this will move the window to the left by its full width */
 
@@ -18,12 +20,13 @@
     transform: translateX(0);
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    height: 100vh;
 }
 
 .main .item {

@@ -17,7 +17,7 @@ function About() {
 
                 <br/>
                 <br/>
-
+        
                 <div className="summary">
                     Hi there! My name is Joann and I'm a classically trained journalist (went to J-school) and bootcamp-taught full-stack developer. After a decade of making content for various lifestyle brands, I decided to pursue my dream of learning how to code. 
                     <br/>
@@ -35,7 +35,9 @@ function About() {
                 <div className="illustration-container">
                     <img src={books} className="illustration books" alt="illustration of books"/>
                 </div>
-            
+                <br/>
+                <br/>
+                <br/>
                 <div className="title">
                 experience & education
                 </div>
@@ -54,6 +56,8 @@ function About() {
                 <div className="illustration-container">
                     <img src={laptop} className="illustration macbook" alt="illustration of macbook air with keys and screen showing"/>
                 </div>
+                <br/>
+                <br/>
                 <br/>
                 <div className="title">
                 capabilities
@@ -111,11 +115,6 @@ function About() {
                 <br/>
                 <br/>
 
-                <div className="illustration-container">
-                    <img src={peony} className="illustration peony" alt="illustration of pink peony flower"/>
-                </div>
-                <br/>
-
                 <div className="title">
                 The Fun Stuff
                 </div>
@@ -128,9 +127,18 @@ function About() {
                 <br/>
                 <br/>
 
-                <div className="prompt">
-                Want to work together? Get in touch <a href="mailto:hitherejoann@gmail.com?subject=CONTACT%20FORM">here</a>
+                <div className="illustration-container">
+                    <img src={peony} className="illustration peony" alt="illustration of pink peony flower"/>
                 </div>
+                <br/>
+                <br/>
+                <div className="prompt">
+                Want to build something together? Get in touch <a href="mailto:hitherejoann@gmail.com?subject=CONTACT%20FORM">here</a>
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
 
 
             </div>     

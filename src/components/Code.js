@@ -35,6 +35,8 @@ function Code() {
             </div>
         </div>
 
+        <br/>
+        <br/>
 
         <div className="project">
             <div className="title-row">

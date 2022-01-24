@@ -114,17 +114,20 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
-.main-wrapper {
-    flex-direction: column;
+.left-side .welcome{
+    text-align: center;
 }
-
 
 .left-side .skills{
     flex-direction: column;
+}
+
+.left-side .summary {
+    font-size: 1rem;
+    text-align:center;
 }
 
 .header1 {

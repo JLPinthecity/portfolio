@@ -19,16 +19,16 @@ function Layout() {
                 <Header clickMenuIcon={showSidebar} show={sidebar}/>
             </div>
 
-            <div className="sidebar">
-                <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
-            </div>
-
             <div className="main">
                 <Outlet/>
             </div>
 
             <div className="footer">
                 {window.location.pathname === '/' ? <Footer /> : <MinimalistFooter/>}  
+            </div>
+
+            <div className="sidebar">
+                <Sidebar className="sidebar" clickMenuIcon={showSidebar} show={sidebar}/>
             </div>
         </div>
 

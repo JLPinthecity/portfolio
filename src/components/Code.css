@@ -1,17 +1,14 @@
 .projects-wrapper{
     width: 100vw;
-    height:auto; 
+    height: auto; 
 }
 
 .project{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    border-bottom: 1px solid black;
     margin-right: 5rem;
     padding: 20px;
+    border-bottom: 1px solid black;
 }
 
 .project a{
@@ -45,7 +42,7 @@
 }
 
 .project img{
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .project-shots{
@@ -55,9 +52,13 @@
     width: 100%;
 }
 
+.projects-container:last-child{
+    background-color: thistle;
+}
+
 .mobile img{
-    width: 15rem;
-    margin-right: 5rem;
+    width: 20rem;
+    margin-right: 2rem;
 }
 
 .desktop img{
@@ -69,3 +70,20 @@
     border-radius: 15px;
 }
 
+.project-compact {
+    border-bottom: none;
+}
+
+
+@media only screen and (width: 850px) {
+    .mobile img{
+        width: 15rem;
+        margin-right: 2rem;
+        background-color: tomato;
+    }
+    
+    .desktop img{
+        width: 42rem;
+    }
+
+}

@@ -19,7 +19,7 @@ function About() {
                 <br/>
         
                 <div className="summary">
-                    Hi there! My name is Joann and I'm a classically trained journalist (went to J-school) and bootcamp-taught full-stack developer. After a decade of making content for various lifestyle brands, I decided to pursue my dream of learning how to code. 
+                    Hi there! My name is Joann and I'm a classically trained journalist (went to J-school) and bootcamp-taught programmer. After a decade of making content for various lifestyle brands, I decided to pursue my dream of learning how to code. 
                     <br/>
                     <br/>
                     Open to: Opportunities to build dynamic mobile-first websites from scratch. As a developer, I strive to write clean and accessible code. As a human, I like to spread kindness and positivity. 
@@ -120,7 +120,7 @@ function About() {
                 </div>
 <br/>
                 <div className="text">
-                Off the web, you can likely find Joann watering her plants, walking her sweet dog Buffy, or planning her next dream trip (Oahu!). Nothing makes her happier than books, meals with friends, and interior-design blogs. 
+                Off the web, you can find me watering my plants, walking my sweet dog Buffy, and planning my next dream trip (Oahu!). Nothing makes me happier than piles of books, meals with friends, and interior-design blogs. 
                 </div>
 
                 <br/>

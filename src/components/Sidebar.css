@@ -1,25 +1,3 @@
-.sidebar_wrapper {
-    font-family: 'Outfit', sans-serif; 
-    background-color: white;
-    color: rgb(1,0,0);
-    letter-spacing: .3em;
-    text-transform: uppercase;
-    left: 0;
-    top: 13rem;
-    width: 100vw;
-    height: 100%;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out;
-    position: absolute;
-    margin-bottom: -101%;
-    padding-bottom: 101%; 
-}
-/* this will move the window to the left by its full width */
-
-.sidebar_wrapper.open{
-    transform: translateX(0);
-}
-
 .main {
     display: flex;
     flex-direction: column;
@@ -46,4 +24,26 @@
 .main .item a:hover,
 .main .item a:active{
     color: rgb(224, 133, 236);
+}
+
+.sidebar_wrapper {
+    font-family: 'Outfit', sans-serif; 
+    background-color: white;
+    color: rgb(1,0,0);
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    left: 0;
+    top: 13rem;
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+    position: absolute;
+    margin-bottom: -101%;
+    padding-bottom: 101%; 
+}
+/* this will move the window to the left by its full width */
+
+.sidebar_wrapper.open{
+    transform: translateX(0);
 }

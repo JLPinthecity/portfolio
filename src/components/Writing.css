@@ -5,3 +5,7 @@
 .clips a{
     color:black;
 }
+
+.clips a:hover{
+    color: rgb(224, 133, 236);
+}

@@ -7,7 +7,9 @@ function Code() {
         
         <div className="project">
             <div className="title-row">
-                <div className="title">HorrorFlix</div>
+                <div className="title">
+                    HorrorFlix
+                </div>
 
                 <div className="project-link link">
                     <a href="https://scarymovies.netlify.app/"  target="_blank" rel="noreferrer">scarymovies.netlify.app</a>
@@ -26,11 +28,11 @@ function Code() {
 
             <div className="project-shots">
                 <div className="mobile">
-                <img src={require('../images/horrorflix-mobile.jpg')}  alt="screenshot of horrorflix project in smaller mobile size"/>
+                    <img src={require('../images/horrorflix-mobile.jpg')}  alt="screenshot of horrorflix project in smaller mobile size"/>
                 </div>
 
                 <div className="desktop">
-                <img src={require('../images/horrorflix-desktop.jpg')}  alt="screenshot of horrorflix project in desktop mode"/>
+                    <img src={require('../images/horrorflix-desktop.jpg')}  alt="screenshot of horrorflix project in desktop mode"/>
                 </div>
             </div>
         </div>
@@ -51,8 +53,7 @@ function Code() {
             <br/>
 
             <div className="overview">
-            Compact is a gear planner built for thru-hikers so they can easily calculate their pack's base weight before embarking on a days-long or months-long journey. Backpackers can easily track every item they're bringing and see the final weight of their pack, subtracting or adding on from there. The front-end was built using React and Redux with a Rails API backend. 
-
+            Compact is a gear planner built for thru-hikers that automatically calculate's a pack's base weight. Backpackers can easily add or subtract each item they plan on bringing on a thru-hike and see the final weight of their pack. The front-end was built using React and Redux with a Rails API backend. 
             </div>
 
             <br/>
@@ -68,7 +69,6 @@ function Code() {
                 </div>
             </div>
         </div>
-
         
     </div>
     );

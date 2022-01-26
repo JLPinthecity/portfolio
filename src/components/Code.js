@@ -53,7 +53,7 @@ function Code() {
             <br/>
 
             <div className="overview">
-            Compact is a gear planner built for thru-hikers that automatically calculate's a pack's base weight. Backpackers can easily add or subtract each item they plan on bringing on a thru-hike and see the final weight of their pack. The front-end was built using React and Redux with a Rails API backend. 
+            Compact is a gear planner built for thru-hikers that automatically calculates a pack's base weight as the user adds or eliminates items from their virtual pack. The front-end was built using React and Redux with a Rails API backend. 
             </div>
 
             <br/>

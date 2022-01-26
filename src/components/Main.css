@@ -24,7 +24,7 @@
 }
 
 .left-side img{
-    width: 40%;
+    width: 30%;
 }
 
 .left-side .summary{
@@ -99,7 +99,7 @@
 
 
 .image-placeholder img{
-    width: 32vw;
+    width: 25vw;
     height: auto;
     border: 20px solid pink;
 }

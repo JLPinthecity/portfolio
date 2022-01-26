@@ -43,7 +43,7 @@ function About() {
                 </div>
 
                 <div className="text">
-                    <br/>
+           
                 After gaining a master's degree in journalism from NYU Arthur L. Carter Journalism Institute, I worked at Oprah.com as a web producer, creating content, writing newsletters, and developing content strategy. At Well+Good, I worked as an assistent branded content editor, conceptualizing and writing sponsored wellness-focused content.
                 <br/>
                 <br/>
@@ -62,7 +62,7 @@ function About() {
                 <div className="title">
                 capabilities
                 </div>
-                <br/>
+            
                 
                 <div className="technologies-container">
                 <div className="technologies text">
@@ -118,7 +118,7 @@ function About() {
                 <div className="title">
                 The Fun Stuff
                 </div>
-<br/>
+
                 <div className="text">
                 Off the web, you can find me watering my plants, walking my sweet dog Buffy, and planning my next dream trip (Oahu!). Nothing makes me happier than piles of books, meals with friends, and interior-design blogs. 
                 </div>

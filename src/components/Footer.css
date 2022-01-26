@@ -2,10 +2,8 @@
     background-color: rgb(237, 234, 228);
     height: 20rem;
     color: rgb(18, 26, 92);
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: 'Outfit', sans-serif;
-
-
 }
 
 .footer_container{
@@ -54,7 +52,7 @@
 }
 
 .copyright {
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .minimalist_flex{

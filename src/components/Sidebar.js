@@ -15,7 +15,6 @@ function Sidebar(props) {
         )
     })
 
-
     let sidebarClass = 'sidebar_wrapper';
     if (props.show) {
         sidebarClass = 'sidebar_wrapper open'

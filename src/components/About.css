@@ -31,9 +31,6 @@
     background: linear-gradient(45deg, rgb(12,26,53), rgb(16, 100,177));
     color: transparent;
     background-clip: text;
-    display: inline-block;
-    position:relative;
-    z-index: 2;
 }
 
 /* SECOND FLEX CONTAINER */

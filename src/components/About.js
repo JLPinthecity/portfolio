@@ -44,7 +44,7 @@ function About() {
 
                 <div className="text">
            
-                After gaining a master's degree in journalism from NYU Arthur L. Carter Journalism Institute, I worked at Oprah.com as a web producer, creating content, writing newsletters, and developing content strategy. At Well+Good, I worked as an assistent branded content editor, conceptualizing and writing sponsored wellness-focused content.
+                After gaining a master's degree in journalism from the NYU Arthur L. Carter Journalism Institute, I worked at Oprah.com as a web producer, creating content, writing newsletters, and developing content strategy. At Well+Good, I worked as an assistent branded content editor, conceptualizing and writing sponsored wellness-focused content.
                 <br/>
                 <br/>
                 I happily graduated from Flatiron School's Online Software Engineering Bootcamp in July 2021. 

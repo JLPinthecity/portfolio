@@ -77,7 +77,7 @@ function Code() {
         <br></br>
 
         <div className="prompt">
-                For more, check out my <a href="https://github.com/JLPinthecity" target="_blank"  rel="noreferrer">Github</a>.
+                For more projects, check out my <a href="https://github.com/JLPinthecity" target="_blank"  rel="noreferrer">Github</a>.
         </div>
 
         <br></br>

@@ -109,6 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding-right: 0vw;
 }
 
 .right-side{

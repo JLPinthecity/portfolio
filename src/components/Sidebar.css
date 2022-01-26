@@ -1,80 +1,76 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 100vh;
 }
 
 .main .item {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 2rem;
-    padding: 3rem;
-    cursor: pointer;
-    font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 2rem;
+  padding: 3rem;
+  cursor: pointer;
+  font-size: 5rem;
 }
 
-.main .item a{
-    text-decoration: none;
-    color: rgb(0,0,43);
+.main .item a {
+  text-decoration: none;
+  color: rgb(0, 0, 43);
 }
 
 .main .item a:hover,
-.main .item a:active{
-    color: rgb(224, 133, 236);
+.main .item a:active {
+  color: rgb(224, 133, 236);
 }
 
 .sidebar_wrapper {
-    font-family: 'Outfit', sans-serif; 
-    background-color: white;
-    color: rgb(1,0,0);
-    letter-spacing: .3em;
-    text-transform: uppercase;
-    left: 0;
-    top: 10rem;
-    width: 100vw;
-    height: 100%;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-out;
-    position: absolute;
-    margin-bottom: -101%;
-    padding-bottom: 101%; 
+  font-family: "Outfit", sans-serif;
+  background-color: white;
+  color: rgb(1, 0, 0);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  left: 0;
+  top: 10rem;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  position: absolute;
+  margin-bottom: -101%;
+  padding-bottom: 101%;
 }
 /* this will move the window to the left by its full width */
 
-.sidebar_wrapper.open{
-    transform: translateX(0);
+.sidebar_wrapper.open {
+  transform: translateX(0);
 }
 
-@media only screen and (min-width:400px){
+@media only screen and (min-width: 400px) {
+  .main .item {
+    font-size: 3rem;
+  }
+}
 
-    .main .item {
-        font-size: 2rem;
-    }
-    
-    }
-
-@media only screen and (min-width:640px){
-
-.main .item {
+@media only screen and (min-width: 640px) {
+  .main .item {
     margin: 1rem;
     padding: 1rem;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 4rem;
+  }
 }
 
+@media only screen and (min-width: 1200px) {
+  .sidebar_wrapper {
+    top: 13rem;
+  }
 }
 
-@media only screen and (min-width: 1200px){
-    .sidebar_wrapper {
-        top: 13rem;
-}
-}
-
-@media only screen and (min-width: 1800px){
-    .sidebar_wrapper {
-        top: 18rem;
-}
+@media only screen and (min-width: 1800px) {
+  .sidebar_wrapper {
+    top: 18rem;
+  }
 }

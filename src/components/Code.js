@@ -20,7 +20,7 @@ function Code() {
             <br/>
 
             <div className="overview">
-            HorrorFlix is React horror-movie reviews site built with a Rails backend. All state is managed with Redux as a single source of truth. 
+            HorrorFlix is a React horror-movie reviews site built with a Rails backend. All state is managed with Redux as a single source of truth. 
             </div>
 
             <br/>

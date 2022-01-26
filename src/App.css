@@ -1,43 +1,37 @@
-
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   background-color: white;
   font-weight: 200;
   font-style: normal;
   font-size: 12px;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
   line-height: 1.5em;
   color: #231f20;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   overflow-x: hidden;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;   
-  justify-content: flex-start; 
+  flex-wrap: wrap;
+  justify-content: flex-start;
   min-height: 100vh;
 }
 
-.header{
+.header {
   width: 100vw;
   order: -1;
 }
 
-.main{
+.main {
   display: flex;
   flex: 1;
 }
 
-/* .app .sidebar{
-  order: 1;
-  flex: 1;
-  height: 100%;
-} */
-
-.footer{
+.footer {
   width: 100vw;
   /* flex: 1; */
 }
@@ -46,12 +40,18 @@ html, body {
   color: rgb(18, 26, 92);
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: 'outfit', serif;
+  font-family: "outfit", serif;
+  padding-left: 1rem;
 }
 
-.text{
-  font-size: 1.2rem;
-  width: 90vw;
+.text {
+  font-size: 1.8rem;
+  width: 85vw;
+  padding-left: 1rem;
 }
 
-
+@media only screen and (max-width: 40em) {
+  .text {
+    font-size: 1.2rem;
+  }
+}

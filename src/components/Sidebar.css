@@ -57,7 +57,7 @@
 @media only screen and (min-width: 640px) {
   .main .item {
     margin: 1rem;
-    padding: 1rem;
+    padding: 2.5rem;
     cursor: pointer;
     font-size: 4rem;
   }

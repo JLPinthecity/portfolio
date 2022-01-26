@@ -92,27 +92,33 @@
     padding-left: 30px;
 }
 
-
-
-
-
-
-
 .image-placeholder img{
     width: 25vw;
     height: auto;
     border: 20px solid pink;
 }
 
-@media only screen and (max-width: 850px) {
+
+  /* Small screen max-width 640px */
+@media only screen and (max-width:40em){
 
 .main-wrapper {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    background-color: tomato;
+    }
+
+.main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: pink;
+    }
+
 
 .left-side .welcome{
     text-align: center;
@@ -134,5 +140,10 @@
 
 .header2{
     padding-left: 0px;
+} 
+
+
 }
-}
+
+
+

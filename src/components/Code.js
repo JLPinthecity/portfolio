@@ -1,5 +1,6 @@
 import React from "react";
 import './Code.css';
+import './About.css';
 
 function Code() {
     return (
@@ -68,7 +69,19 @@ function Code() {
                 <img src={require('../images/desktop.jpg')}  alt="screenshot of compact gear list project in desktop mode"/>
                 </div>
             </div>
+
+            
         </div>
+
+        <br></br>
+        <br></br>
+
+        <div className="prompt">
+                For more, check out my <a href="https://github.com/JLPinthecity" target="_blank"  rel="noreferrer">Github</a>.
+        </div>
+
+        <br></br>
+        <br></br>
         
     </div>
     );

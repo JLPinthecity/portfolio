@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import { Link } from "react-router-dom";
 
 function Main() {
     return (
@@ -44,7 +45,8 @@ function Main() {
                 <br></br>
 
                 <div className="button-wrapper">
-                    <a href="/about" className="button">Learn more</a>
+                    <Link to="/about">Learn More</Link>
+
                 </div>
 
             </div>

@@ -4,6 +4,7 @@
   color: rgb(18, 26, 92);
   font-size: 1.4rem;
   font-family: "Outfit", sans-serif;
+  width: 100%;
 }
 
 .footer_container {
@@ -66,4 +67,26 @@
   color: black;
   font-family: "Outfit", serif;
   font-size: 2rem;
+}
+
+/* Small screen max-width 500px */
+@media only screen and (max-width: 500px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .row .email {
+    font-size: 1.2rem;
+  }
+
+  .icon,
+  .row .icon {
+    font-size: 1.7rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+  }
 }

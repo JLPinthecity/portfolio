@@ -1,15 +1,16 @@
-.writing-wrapper{
-    line-height: 1.6;
+.writing-wrapper {
+  line-height: 1.6;
+  margin: 2rem;
 }
 
 .clips {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
-.clips a{
-    color:black;
+.clips a {
+  color: black;
 }
 
-.clips a:hover{
-    color: rgb(224, 133, 236);
+.clips a:hover {
+  color: rgb(224, 133, 236);
 }

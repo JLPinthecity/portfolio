@@ -72,9 +72,10 @@
   border-bottom: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .project {
     padding: 10px;
+    margin: 0;
   }
 
   .title-row {
@@ -91,22 +92,16 @@
   .project a {
     color: black;
     font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .overview {
+    width: 95%;
   }
 
   .mobile img {
     width: 15rem;
     margin-right: 2rem;
-    background-color: tomato;
-  }
-
-  .desktop img {
-    width: 42rem;
-  }
-
-  .overview {
-    width: 100%;
-    text-align: justify;
-    font-size: 1.5rem;
   }
 
   .project-shots {
@@ -117,21 +112,44 @@
     width: 100%;
   }
 
-  .mobile img {
-    width: 25rem;
-    margin: 1rem;
-  }
-
   .desktop img {
     display: none;
   }
+}
 
-  .project-shots img {
-    border: 1px solid black;
-    border-radius: 15px;
+@media only screen and (max-width: 1200px) and (min-width: 650px) {
+  .project {
+    padding: 20px;
+    margin: 0;
   }
 
-  .project-compact {
-    border-bottom: none;
+  .title-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-row .title {
+    order: 1;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .project a {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: blue;
+  }
+
+  .overview {
+    width: 90%;
+  }
+
+  .mobile img {
+    width: 15rem;
+    margin-right: 2rem;
+  }
+
+  .desktop img {
+    width: 45rem;
   }
 }

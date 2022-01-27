@@ -6,6 +6,7 @@
   justify-content: center;
   align-content: center;
   padding-right: 3vw;
+  margin: 20px auto;
 }
 
 .right-side {
@@ -107,15 +108,15 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-right: 0vw;
+    padding-right: 0rem;
+    padding-left: 1rem;
   }
 
   .right-side {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-left: 1rem;
   }
 
   .right-side img {
@@ -166,6 +167,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 3vw;
+    text-align: center;
   }
 
   .right-side {

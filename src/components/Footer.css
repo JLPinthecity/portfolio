@@ -45,7 +45,8 @@
   padding-right: 15px;
 }
 
-.icon {
+.icon,
+.row .icon {
   color: rgb(17, 61, 55);
   font-size: 1.5rem;
   padding-left: 3px;

@@ -98,8 +98,8 @@
   border: 20px solid pink;
 }
 
-/* Small screen max-width 640px */
-@media only screen and (max-width: 640px) {
+/* Small screen max-width 500px */
+@media only screen and (max-width: 600px) {
   .main-wrapper {
     width: 100%;
     height: auto;
@@ -157,50 +157,43 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 900px) and (min-width: 600px) {
   .main-wrapper {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding-right: 3vw;
   }
 
   .right-side {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
   }
 
-  .left-side {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
+  .image-placeholder img {
+    width: 33vw;
+    height: auto;
+    border: 20px solid pink;
   }
 
   .left-side img {
-    width: 30%;
+    width: 35%;
   }
 
   .left-side .summary {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 30px;
-    line-height: 27pt;
-    letter-spacing: 0.1rem;
-    text-align: left;
-    padding-left: 2.2vw;
+    font-size: 25px;
+    padding-left: 2vw;
   }
 
   .left-side .button-wrapper {
     display: flex;
     justify-content: center;
-    margin: 2.2rem;
+    margin: 0.5rem;
   }
 
   .left-side .button {
@@ -250,15 +243,5 @@
 
   .header2 {
     padding-left: 30px;
-  }
-
-  .image-placeholder img {
-    width: 25vw;
-    height: auto;
-    border: 20px solid pink;
-  }
-
-  /* Small screen max-width 640px */
-  @media only screen and (max-width: 640px) {
   }
 }

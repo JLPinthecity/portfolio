@@ -16,8 +16,10 @@ function Layout() {
         <Header clickMenuIcon={showSidebar} show={sidebar} />
       </div>
 
-      <div className="main">
-        <Outlet />
+      <div class="main-container">
+        <div className="main">
+          <Outlet />
+        </div>
       </div>
 
       <div className="footer">

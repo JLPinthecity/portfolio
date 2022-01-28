@@ -38,4 +38,5 @@ export default Header;
 //                 <Sidebar className="hide" toggle={showSidebar} sidebar={sidebar}/>
 //             </nav> */}
 
-// passed from layout component: clickMenuIcon={showSidebar} show={sidebar}
+// passed from layout to header: clickMenuIcon={showSidebar} show={sidebar}
+// passed from header to sidebar click={clickMenuIcon} show={show}

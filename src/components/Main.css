@@ -31,7 +31,7 @@
 .left-side .summary {
   display: flex;
   justify-content: flex-end;
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 27pt;
   letter-spacing: 0.1rem;
   text-align: left;
@@ -121,6 +121,7 @@
 
   .right-side img {
     width: 80%;
+    margin: 0.5rem;
   }
 
   .left-side {
@@ -145,7 +146,7 @@
   }
 
   .left-side .summary {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .header1 {
@@ -186,12 +187,15 @@
     border: 20px solid pink;
   }
 
+  .left-side {
+    justify-content: center;
+  }
   .left-side img {
     width: 35%;
   }
 
   .left-side .summary {
-    font-size: 25px;
+    font-size: 1rem;
     padding-left: 2vw;
   }
 

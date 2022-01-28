@@ -1,5 +1,5 @@
 .about-wrapper {
-  margin: 0px;
+  margin-right: 5rem;
   padding: 0px;
   font-size: 25px;
   letter-spacing: 0.04em;
@@ -7,7 +7,7 @@
   color: #231f20;
   font-family: Georgia, serif;
   height: 100%;
-  width: 100vw;
+  width: 90vw;
 }
 
 /* FIRST FLEX CONTAINER */

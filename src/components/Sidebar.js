@@ -16,14 +16,14 @@ function Sidebar(props) {
     );
   });
 
-  let sidebarClass = "sidebar_wrapper";
+  let sidebarClass = "sidebar_wrapper hide";
   if (props.show) {
     sidebarClass = "sidebar_wrapper open";
   }
 
   return (
     <div className={sidebarClass}>
-      <div className="main-container">
+      <div className="content-container">
         <ul>{menuItems}</ul>
       </div>
     </div>

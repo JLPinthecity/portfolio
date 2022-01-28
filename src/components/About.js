@@ -77,27 +77,27 @@ function About() {
 
         <div className="technologies-container">
           <div className="technologies text">
-            <div class="technology">HTML</div>
+            <div className="technology">HTML</div>
 
-            <div class="technology">CSS</div>
+            <div className="technology">CSS</div>
 
-            <div class="technology">Ruby</div>
+            <div className="technology">Ruby</div>
           </div>
 
           <div className="technologies text">
-            <div class="technology">Sinatra</div>
+            <div className="technology">Sinatra</div>
 
-            <div class="technology">Rails</div>
+            <div className="technology">Rails</div>
 
-            <div class="technology">JavaScript</div>
+            <div className="technology">JavaScript</div>
           </div>
 
           <div className="technologies text">
-            <div class="technology">React</div>
+            <div className="technology">React</div>
 
-            <div class="technology">Redux</div>
+            <div className="technology">Redux</div>
 
-            <div class="technology">Git</div>
+            <div className="technology">Git</div>
           </div>
         </div>
 

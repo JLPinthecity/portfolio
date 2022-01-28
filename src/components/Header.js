@@ -5,6 +5,8 @@ import "./Header.css";
 import "./Burger.css";
 
 const Header = (props) => {
+  const { show, clickMenuIcon } = props;
+
   return (
     <div className="nav">
       <div className="header">
@@ -16,19 +18,11 @@ const Header = (props) => {
           />
         </a>
 
-        <Burger
-          className="burger_icon"
-          click={props.clickMenuIcon}
-          show={props.show}
-        />
+        <Burger className="burger_icon" click={clickMenuIcon} show={show} />
       </div>
 
       <div className="sidebar">
-        <Sidebar
-          className="sidebar"
-          click={props.clickMenuIcon}
-          show={props.show}
-        />
+        <Sidebar className="sidebar" click={clickMenuIcon} show={show} />
       </div>
 
       <p></p>
@@ -43,3 +37,5 @@ export default Header;
 //   {/* <nav className="side">
 //                 <Sidebar className="hide" toggle={showSidebar} sidebar={sidebar}/>
 //             </nav> */}
+
+// passed from layout component: clickMenuIcon={showSidebar} show={sidebar}

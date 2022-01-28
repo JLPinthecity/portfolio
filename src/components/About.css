@@ -1,13 +1,13 @@
 .about-wrapper {
-  margin-right: 5rem;
+  margin: 1rem;
   padding: 0px;
   font-size: 25px;
   letter-spacing: 0.04em;
   line-height: 1.5em;
   color: #231f20;
   font-family: Georgia, serif;
-  height: 100%;
-  width: 90vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* FIRST FLEX CONTAINER */
@@ -91,10 +91,12 @@
   padding: 2rem;
 }
 
-@media only screen and (max-width: 450px) {
-  .summary,
-  .technology {
-    font-size: 1.2rem;
+@media only screen and (max-width: 500px) {
+  .about-title {
+    transform: rotate(0deg);
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
   }
 
   .about-row {
@@ -104,29 +106,19 @@
     padding: 2rem;
   }
 
-  .about-title {
-    color: rgb(18, 26, 92);
-    font-size: 2.5rem;
-    font-family: "lato", serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    transform: rotate(0deg);
-    transform-origin: 0 0;
-    background: linear-gradient(45deg, rgb(12, 26, 53), rgb(16, 100, 177));
-    color: transparent;
-    background-clip: text;
-  }
-
-  .summary {
-    width: 85vw;
-    padding-left: 1rem;
+  .summary,
+  .technology {
+    font-size: 1.2rem;
+    margin-right: 0rem;
+    display: inline-block;
+    padding: 0;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) and (min-width: 500px) {
   .text,
   .summary,
   .technology {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 }

@@ -1,17 +1,10 @@
 import React from "react";
 import Burger from "./Burger";
 import Sidebar from "./Sidebar";
-import { useState } from "react";
-
 import "./Header.css";
 import "./Burger.css";
-import "./Sidebar.css";
 
 const Header = (props) => {
-  const [sidebar, setSidebar] = useState(false);
-
-  const showSidebar = () => setSidebar(!sidebar);
-
   return (
     <div className="nav">
       <div className="header">
@@ -33,8 +26,8 @@ const Header = (props) => {
       <div className="sidebar">
         <Sidebar
           className="sidebar"
-          clickMenuIcon={showSidebar}
-          show={sidebar}
+          click={props.clickMenuIcon}
+          show={props.show}
         />
       </div>
 

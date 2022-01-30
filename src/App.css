@@ -46,13 +46,12 @@ body {
 
 .text {
   font-size: 1.8rem;
-  width: 85vw;
   padding-left: 1rem;
 }
 
 /* Small screen max-width 600px */
 @media only screen and (max-width: 600px) {
   .text {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }

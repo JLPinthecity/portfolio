@@ -35,6 +35,6 @@
 @media only screen and (max-width: 600px) {
   /* LOGO */
   .header .title {
-    max-width: 12rem;
+    max-width: 9rem;
   }
 }

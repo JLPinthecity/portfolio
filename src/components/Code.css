@@ -1,6 +1,7 @@
 .projects-wrapper {
   width: 100vw;
   height: auto;
+  animation: transitionIn 0.75s;
 }
 
 .project {

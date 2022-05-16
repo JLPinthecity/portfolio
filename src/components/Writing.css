@@ -1,6 +1,7 @@
 .writing-wrapper {
   line-height: 1.6;
   margin: 2rem;
+  animation: transitionIn 0.75s;
 }
 
 .clips {

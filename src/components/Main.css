@@ -7,6 +7,7 @@
   align-content: center;
   padding-right: 3vw;
   margin: 20px auto;
+  animation: transitionIn 0.75s;
 }
 
 .right-side {
@@ -48,7 +49,6 @@
 
 .left-side .button {
   width: 165px;
-  transition-timing-function: ease;
 }
 
 .left-side a {
@@ -79,7 +79,6 @@
   display: flex;
   flex-direction: row;
   padding-left: 2.2vw;
-  transition-timing-function: ease;
 }
 
 .header1,

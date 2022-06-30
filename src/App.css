@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
 body, html {
   margin: 0px;
   padding: 0px;
@@ -13,6 +21,8 @@ body, html {
   position: relative;
   animation: transitionIn 0.75s;
 }
+
+
 
 
 /* LAYOUT COMPONENT */

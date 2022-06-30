@@ -11,7 +11,7 @@ function Layout() {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <div className="app">
+    <div className="layout-container">
       <div className="header">
         <Header clickMenuIcon={showSidebar} show={sidebar} />
       </div>

@@ -3,7 +3,6 @@ body, html {
   padding: 0px;
   background-color: white;
   font-style: normal;
-  font-size: 1rem;
   letter-spacing: 0.02rem;
   line-height: 1;
   color: #231f20;
@@ -40,7 +39,6 @@ body, html {
 
 .title {
   color: rgb(18, 26, 92);
-  font-size: 1.2rem;
   text-transform: uppercase;
   font-family: "outfit", serif;
   padding-left: 1rem;

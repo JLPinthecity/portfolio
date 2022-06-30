@@ -1,11 +1,15 @@
-.writing-wrapper {
+.writing-container {
   line-height: 1.6;
-  margin: 2rem;
-  animation: transitionIn 0.75s;
+  font-family:
 }
 
+.writing-main {
+  padding: 2rem;
+}
+
+
 .clips {
-  font-family: "Lora", serif;
+  padding-left: 1rem;
 }
 
 .clips a {

@@ -1,155 +1,43 @@
+
 .projects-container {
-  width: 100vw;
-  height: auto;
-  animation: transitionIn 0.75s;
+  width: 100%;
 }
 
-.project-main {
+.projects-main {
   display: flex;
   flex-direction: column;
-  margin-right: 5rem;
-  padding: 20px;
-  border-bottom: 1px solid black;
+  padding: 2rem;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.project a {
-  color: gray;
+.title-row{
+  padding-bottom: 2rem;
 }
 
-.project a:hover {
-  color: rgb(230, 57, 72);
-}
-
-.title-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.title-row .title {
-  order: 1;
-  padding-right: 3rem;
-}
-
-.title-row .project-link {
-  order: 2;
-}
-
-.overview {
-  width: 50%;
-  text-align: justify;
-  font-size: 1.5rem;
-  padding-left: 1rem;
-  line-height: 1.6;
-}
-
-.project img {
-  border: 2px solid black;
+.project-title {
+  font-size: 2rem;
+  font-family: "lato", serif;
+  font-weight: 700;
+  padding-bottom: .5rem;
 }
 
 .project-shots {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
-.mobile img {
-  width: 20rem;
-  margin-right: 2rem;
+.mobile img{
+  width: 80%;
+
 }
 
-.desktop img {
-  width: 55rem;
+.desktop img{
+  width: 80%;
+ 
 }
 
-.project-shots img {
-  border: 1px solid black;
-  border-radius: 15px;
-}
-
-.project-compact {
-  border-bottom: none;
-}
-
-@media only screen and (max-width: 650px) {
-  .project {
-    padding: 10px;
-    margin: 0;
-  }
-
-  .title-row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .title-row .title {
-    order: 1;
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
-  }
-
-  .project a {
-    color: black;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-  }
-
-  .overview {
-    width: 95%;
-  }
-
-  .mobile img {
-    width: 15rem;
-    margin-right: 2rem;
-  }
-
-  .project-shots {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .desktop img {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 650px) {
-  .project {
-    padding: 20px;
-    margin: 0;
-  }
-
-  .title-row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .title-row .title {
-    order: 1;
-    padding-bottom: 2rem;
-    font-size: 3rem;
-  }
-
-  .project a {
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    color: blue;
-  }
-
-  .overview {
-    width: 90%;
-  }
-
-  .mobile img {
-    width: 15rem;
-    margin-right: 2rem;
-  }
-
-  .desktop img {
-    width: 45rem;
-  }
-}

@@ -11,6 +11,7 @@
   align-content: center;
   padding: 3rem 2rem;
   border-top: 1px solid black;
+  gap: 10%;
 }
 
 @media (min-width:600px) {
@@ -26,7 +27,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding:1rem;
+  padding-bottom: 3rem;
 }
 
 
@@ -54,6 +55,8 @@
 .right-side .skills {
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
+  padding: 0.5rem;
 }
 
 /* COLUMNS WHEN SMALl, ROWS WHEN LARGE */

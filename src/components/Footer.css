@@ -29,11 +29,29 @@
 
 .minimalist_flex {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(237, 234, 228, 0.3);
-  height: 10rem;
 }
+
+.minimalist_flex a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.minimalist_flex a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  background-color:rgb(17, 61, 55)
+}
+
+@media (min-width:600px) {
+  .footer_container .minimalist_flex {
+      flex-direction: row;
+      height: 10rem;
+  }
+} 
 
 .minimalist_flex a {
   color: black;

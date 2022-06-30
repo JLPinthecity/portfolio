@@ -1,5 +1,5 @@
 /* WRAPS HEADER */
-.nav {
+.header-container {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -7,34 +7,24 @@
   left: 0;
 }
 
-.nav p {
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  float: center;
-}
-
 /* FLEXBOX ON MAIN PAGE - WRAPS LOGO + MENU ICON + SIDEBAR */
-.header {
+.header-main {
   display: flex;
-  width: 100vw;
-  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  padding-left: 3vw;
-  padding-right: 3vw;
+  padding: 3rem 2rem;
 }
 
 /* LOGO */
 .header .title {
-  max-width: 12rem;
+  max-width: 11rem;
 }
 
 /* Small screen max-width 600px */
 @media only screen and (max-width: 600px) {
   /* LOGO */
   .header .title {
-    max-width: 9rem;
+    max-width: 8rem;
   }
 }

@@ -8,8 +8,8 @@ const Header = (props) => {
   const { show, clickMenuIcon } = props;
 
   return (
-    <div className="nav">
-      <div className="header">
+    <div className="header-container">
+      <div className="header-main">
         <a href="/">
           <img
             src={require("../logos/stacked.png")}
@@ -24,8 +24,6 @@ const Header = (props) => {
       <div className="sidebar">
         <Sidebar className="sidebar" click={clickMenuIcon} show={show} />
       </div>
-
-      <p></p>
     </div>
   );
 };

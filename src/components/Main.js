@@ -37,8 +37,6 @@ function Main() {
             </div>
           </div>
 
-          <br></br>
-
           <div className="button-wrapper">
             <Link to="/about">Learn More</Link>
           </div>

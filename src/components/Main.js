@@ -6,7 +6,7 @@ function Main() {
   return (
     <div className="home-container">
       <div className="home-main">
-        <div className="right-side">
+        <div className="left-side">
           <div className="image-placeholder">
             <img
               src={require("../images/joann.jpeg")}
@@ -15,23 +15,11 @@ function Main() {
           </div>
         </div>
 
-        <div className="left-side">
-          <div className="welcome">
-            <img
-              src={require("../logos/hithere.png")}
-              className="hi"
-              alt="hi there against blue background"
-            />
-          </div>
-          <br />
-          <br />
-
+        <div className="right-side">
           <div className="summary">
-            I'm Joann, a full-stack developer and content creator based in NYC.
+            Hi there! I'm Joann, a full-stack developer and content creator
+            based in NYC.
           </div>
-
-          <br />
-          <br />
 
           <div className="skills">
             <div className="header1">

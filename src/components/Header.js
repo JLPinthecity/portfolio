@@ -29,12 +29,3 @@ const Header = (props) => {
 };
 
 export default Header;
-
-// <AiOutlinePlus onClick={showSidebar} />
-
-//   {/* <nav className="side">
-//                 <Sidebar className="hide" toggle={showSidebar} sidebar={sidebar}/>
-//             </nav> */}
-
-// passed from layout to header: clickMenuIcon={showSidebar} show={sidebar}
-// passed from header to sidebar click={clickMenuIcon} show={show}

@@ -13,10 +13,10 @@ function About() {
           <div className="about-title">ABOUT</div>
 
           <div className="summary">
-            Hi there! My name is Joann and I'm a classically trained journalist
-            (went to J-school) and bootcamp-taught programmer. After a decade of
-            making content for various lifestyle brands, I decided to pursue my
-            dream of learning how to code.
+            Hi there! My name is Joann Pan and I'm a classically trained
+            journalist (went to J-school) and bootcamp-taught programmer. After
+            a decade of making content for various lifestyle brands, I decided
+            to pursue my dream of learning how to code.
             <br />
             <br />
             Open to: Opportunities to build dynamic mobile-first websites from

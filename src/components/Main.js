@@ -17,7 +17,7 @@ function Main() {
 
         <div className="right-side">
           <div className="summary">
-            Hi there! I'm Joann, a full-stack developer and content creator
+            Hi there! I'm Joann Pan, a full-stack developer and content creator
             based in NYC.
           </div>
 
@@ -38,7 +38,7 @@ function Main() {
           </div>
 
           <div className="button-wrapper">
-            <Link to="/about">Learn More</Link>
+            <Link to="/about">Learn more</Link>
           </div>
         </div>
       </div>

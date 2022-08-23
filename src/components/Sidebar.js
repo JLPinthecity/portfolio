@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { SidebarContent } from "./SidebarContent";
 import { Link } from "react-router-dom";
+import { AiOutlineClose } from "react-icons/ai";
 import "./Sidebar.css";
 
 function Sidebar(props) {
@@ -34,6 +35,9 @@ function Sidebar(props) {
   return (
     <div className={sidebarClass}>
       <div className="content-container">
+        <div className="close-container">
+          <AiOutlineClose onClick={click} />
+        </div>
         <ul>{menuItems}</ul>
       </div>
     </div>

@@ -34,8 +34,16 @@
 }
 
 .illustration-container img {
-  width: 8rem;
+  width: 25%;
 }
+
+
+@media (min-width:600px) {
+  .illustration-container img {
+    width: 25%;
+  }
+} 
+
 
 
 .technologies-container {

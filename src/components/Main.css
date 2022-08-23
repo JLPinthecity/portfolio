@@ -27,12 +27,7 @@
 } 
 
 
-/* LARGER SCREENS */
-@media only screen and (min-width: 900px)  {
-  .main-container img {
-    width: 60%;
-  }
-} 
+
 
 /* LEFT SIDE */
 .image-placeholder{

@@ -42,22 +42,26 @@
   width: 100%;
 }
 
-.bigger-mobile img{
-  width: 30%;
-}
 
-.bigger-desktop img{
-  width:65%;
-}
 
 .mobile img{
-  width: 50%;
+  width: 80%;
 }
 
 .desktop img{
-  width:70%;
+  width: 90%;
 }
 
+
+@media (min-width:600px) {
+  .mobile img{
+    width: 50%;
+  }
+  
+  .desktop img{
+    width:70%;
+  }
+} 
 
 .prompt{
   padding: 1rem;

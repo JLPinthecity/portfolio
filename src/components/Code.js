@@ -8,7 +8,7 @@ function Code() {
       <div className="projects-wrapper">
         <div className="project-showcase">
           <div className="title-row">
-            <div className="project-title">Compact</div>
+            <div className="project-title">Abortion Rights by State</div>
 
             <div className="project-link link">
               <a
@@ -29,21 +29,21 @@ function Code() {
           </div>
 
           <div className="project-shots">
-            <div className="bigger-desktop">
+            <div className="desktop">
+              <img
+                src={require("../images/desktop-abortion-rights-main.png")}
+                alt="screenshot of compact gear list project in desktop mode"
+              />
+            </div>
+
+            <div className="desktop">
               <img
                 src={require("../images/desktop-abortion-rights.png")}
                 alt="screenshot of compact gear list project in desktop mode"
               />
             </div>
 
-            <div className="bigger-desktop">
-              <img
-                src={require("../images/desktop-abortion-rights-2.png")}
-                alt="screenshot of compact gear list project in desktop mode"
-              />
-            </div>
-
-            <div className="bigger-mobile">
+            <div className="mobile">
               <img
                 src={require("../images/mobile-abortion-rights.png")}
                 alt="screenshot of Abortion Rights by State website in desktop mode"
@@ -51,6 +51,7 @@ function Code() {
             </div>
           </div>
         </div>
+
         <div className="project-showcase">
           <div className="title-row">
             <div className="project-title">Compact</div>
@@ -76,14 +77,21 @@ function Code() {
           <div className="project-shots">
             <div className="mobile">
               <img
-                src={require("../images/tablet.png")}
+                src={require("../images/compact-mobile.png")}
                 alt="screenshot of compact gear list project in desktop mode"
               />
             </div>
 
             <div className="desktop">
               <img
-                src={require("../images/big.png")}
+                src={require("../images/desktop-compact-main.png")}
+                alt="screenshot of compact gear list project in desktop mode"
+              />
+            </div>
+
+            <div className="desktop">
+              <img
+                src={require("../images/desktop-compact.png")}
                 alt="screenshot of compact gear list project in desktop mode"
               />
             </div>

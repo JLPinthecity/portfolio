@@ -10,13 +10,7 @@ const Header = (props) => {
   return (
     <div className="header-container">
       <div className="header-main">
-        <a href="/">
-          <img
-            src={require("../logos/stacked.png")}
-            className="title"
-            alt="joann pan logo"
-          />
-        </a>
+        <a href="/">Joann Pan</a>
 
         <Burger className="burger_icon" click={clickMenuIcon} show={show} />
       </div>

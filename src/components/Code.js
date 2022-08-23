@@ -5,7 +5,52 @@ import "./About.css";
 function Code() {
   return (
     <div className="projects-container">
-      <div className="projects-main">
+      <div className="projects-wrapper">
+        <div className="project-showcase">
+          <div className="title-row">
+            <div className="project-title">Compact</div>
+
+            <div className="project-link link">
+              <a
+                href="https://abortionrightsbystate.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://abortionrightsbystate.com/
+              </a>
+            </div>
+          </div>
+
+          <div className="overview">
+            Abortion Rights by State is a tool anyone can use to familiarize
+            themselves with abortion rights in any state. State laws are
+            populated programmatically from the Abortion Policy API. The project
+            was built with Next.js and React.
+          </div>
+
+          <div className="project-shots">
+            <div className="bigger-desktop">
+              <img
+                src={require("../images/desktop-abortion-rights.png")}
+                alt="screenshot of compact gear list project in desktop mode"
+              />
+            </div>
+
+            <div className="bigger-desktop">
+              <img
+                src={require("../images/desktop-abortion-rights-2.png")}
+                alt="screenshot of compact gear list project in desktop mode"
+              />
+            </div>
+
+            <div className="bigger-mobile">
+              <img
+                src={require("../images/mobile-abortion-rights.png")}
+                alt="screenshot of Abortion Rights by State website in desktop mode"
+              />
+            </div>
+          </div>
+        </div>
         <div className="project-showcase">
           <div className="title-row">
             <div className="project-title">Compact</div>
@@ -44,9 +89,6 @@ function Code() {
             </div>
           </div>
         </div>
-
-        <br></br>
-        <br></br>
 
         <div className="project-showcase">
           <div className="title-and-url-section">

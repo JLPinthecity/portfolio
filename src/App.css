@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 body, html {
   margin: 0px;
   padding: 0px;
@@ -13,17 +11,12 @@ body, html {
   font-style: normal;
   letter-spacing: 0.02rem;
   line-height: 1;
-  color: #231f20;
-  font-family: "Be Vietnam Pro", sans-serif;
-  height: 100%;
-  width: 100%;
+  color: black;
+  font-family: 'Outfit', sans-serif;
   overflow-x: hidden;
   position: relative;
   animation: transitionIn 0.75s;
 }
-
-
-
 
 /* LAYOUT COMPONENT */
 .layout-container {
@@ -54,9 +47,7 @@ body, html {
   padding-left: 1rem;
 }
 
-.text {
-  font-size: .8rem;
-}
+
 
 
 @keyframes transitionIn {
@@ -69,4 +60,13 @@ body, html {
     opacity: 1;
     transform: rotateX(0);
   }
+}
+
+
+@font-face {
+  font-family: 'Aloevera';
+  src: local('Aloevera'), url(./fonts/Aloevera.ttf) format('truetype');
+
+  font-family: 'GirlasFree';
+  src: local('GirlasFree'), url(./fonts/GirlasFree.ttf) format('truetype');
 }
